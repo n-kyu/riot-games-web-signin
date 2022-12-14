@@ -1,0 +1,27 @@
+.logo {
+  padding-bottom: 50px;
+}
+.logo__image {
+  margin: 2em 2em 0 2em;
+  width: 250px;
+}
+
+@media screen and (max-width: 1050px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .logo__image {
+    margin: 2em 0 0 0;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .logo {
+    padding-bottom: 20px;
+  }
+
+  .logo__image {
+    width: 120px;
+  }
+}

@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 150px;
+  color: var(--grey);
+}
+.footer__nav--list {
+  display: flex;
+  text-transform: uppercase;
+  padding: 0 30px 30px 30px;
+}
+
+.footer__nav--link {
+  color: var(--grey);
+  text-decoration: none;
+  padding: 0 0 0px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 20px;
+  }
+
+  .footer__nav--list {
+    padding: 0 0 15px 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .footer__nav--item {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+@import url(signin/signin.css);
+@import url(signin/button.css);
+@import url(signin/checkbox.css);
+@import url(footer.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --whitesmoke: #f9f9f9;
+  --light-grey: #ececec;
+  --grey: #c4c4c4;
+  --medium-grey: #a7a7a7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1b77f3;
+  --blue-hover: #1a68cf;
+  --red: #cf3c3f;
+  --green: #107c10;
+  --green-hover: #0c5d0c;
+}
+
+.wallpaper {
+  background-image: url(../image/wallpaper.jpg);
+  background-attachment: fixed;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
